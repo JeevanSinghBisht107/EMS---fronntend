@@ -24,7 +24,7 @@ const Add = () => {
         e.preventDefault();
         try {
             const response = await axios.post(
-              `https://ems-api-two.vercel.app/api/leave/add`,leave,
+              `https://ems-api-rouge.vercel.app/api/leave/add`,leave,
               {
                 headers: {
                   "Authorization": `Bearer ${localStorage.getItem("token")}`,

@@ -39,7 +39,7 @@ const AddSalary = () => {
 
     try {
       const response = await axios.post(
-        `https://ems-api-two.vercel.app/api/salary/add`,
+        `https://ems-api-rouge.vercel.app/api/salary/add`,
         salary,
         {
           headers: {
