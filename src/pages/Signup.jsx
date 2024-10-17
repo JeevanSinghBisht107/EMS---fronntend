@@ -6,7 +6,18 @@ import toast from "react-hot-toast";
 
 const Signup = () => {
   const [departments, setDepartments] = useState([]);
-  const [formData, setFormData] = useState({});
+  const [formData, setFormData] = useState({
+    name:"",
+    email: "",
+    employeeId: "",
+    dob: "",
+    gender: "",
+    maritalStatus: "",
+    designation: "",
+    department: "",
+    password: "",
+    image: null,
+  });
   const navigate = useNavigate();
 
   useEffect(() => {
