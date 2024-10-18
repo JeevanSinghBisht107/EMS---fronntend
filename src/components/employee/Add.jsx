@@ -227,7 +227,6 @@ const Add = () => {
               placeholder="Upload Image"
               accept="image/*"
               className="mt-1 p-2 block w-full border border-gray-300 rounded-md"
-              required
             />
           </div>
         </div>
